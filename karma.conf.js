@@ -3,9 +3,11 @@ module.exports = function (config) {
     basePath: '',
     frameworks: ['mocha', 'chai'],
     files: [
-      'bower_components/angular/angular.min.js',
-      'bower_components/angular-mocks/angular-mocks.js',
-      'angular-money-directive.js',
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'node_modules/jquery/dist/jquery.js',
+      'node_modules/chai-jquery/chai-jquery.js',
+      'src/angular-money-directive.js',
       'test/angular-money-directive.spec.js'
     ],
     reporters: ['progress'],
